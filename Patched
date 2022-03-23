@@ -8,6 +8,13 @@ local btns = serv:Channel("My Exploits")
 
 local d = serv:Channel("Credits")
 
+btns:Bind(
+    "Toggle UI ( K )",
+    function()     
+    Enum.KeyCode.K
+    end
+)
+
 btns:Label("__________________________________________________")
 
 btns:Button(
@@ -18,6 +25,13 @@ btns:Button(
 )
 
 btns:Label("__________________________________________________")
+
+btns:Button(
+    "My Shortcut UI",
+    function()     
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/leoshub/main/MyShortcut"))()
+    end
+)
 
 btns:Button(
     "Mag Developments V1",
