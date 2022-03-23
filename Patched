@@ -2,7 +2,7 @@ local DiscordLib =  loadstring(game:HttpGet"https://raw.githubusercontent.com/Ma
 
 local win = DiscordLib:Window("Mag Developments")
 
-local serv = win:Server("Main", "http://www.roblox.com/asset/?id=9107048903")
+local serv = win:Server("Main", "http://www.roblox.com/asset/?id=5003210530")
 
 local btns = serv:Channel("My Exploits")
 
