@@ -474,3 +474,26 @@ local n = ftns:Channel("Kat")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
     end
 )
+
+local o = ftns:Channel("Project Ghoul")
+
+o:Button(
+    "Leo Hub",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/PG2o"))()
+     end
+)
+
+o:Button(
+    "Untitled Script",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/PGOpenScript"))()
+     end
+)
+
+o:Button(
+    "Project Ghoul - 10x",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/10x00/Public-Scripts/main/Project%20Ghoul%20V2.lua"))();
+     end
+)
