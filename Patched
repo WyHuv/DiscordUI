@@ -1,4 +1,4 @@
-local DiscordLib =  loadstring(game:HttpGet"https://raw.githubusercontent.com/MagDevelopments/UI-s/main/Discord%20Library")()
+local DiscordLib =  loadstring(game:HttpGet"https://raw.githubusercontent.com/WyHuv/ObfuscatedByMoonSec_2/main/OperaDiscord")()
 
 local win = DiscordLib:Window("Mag Developments")
 
