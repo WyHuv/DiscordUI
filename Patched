@@ -33,6 +33,8 @@ btns:Button(
     end
 )
 
+
+
 btns:Button(
     "MagHub V1",
     function()     
@@ -530,3 +532,29 @@ p:Button(
     end
 )
 
+local q = ftns:Channel("Demon Soul Simualator")
+
+q:Button(
+    "DSS Hub",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Urbanstorms/Cool-things/main/Demon%20Soul%20Simulator.lua"))()
+    end
+)
+
+q:Button(
+    "Enel Scrpts",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/redx2344/aniime-punching-sim-44/Enel-scripts/Enel-Hub"))()
+    end
+)
+
+q:Button(
+    "Demon Script",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/borntodiekuv/DemonSouls/main/tastysex"))()
+    end
+)
+
+
+
+--abcdefghijklmnopqrstuvwyz
