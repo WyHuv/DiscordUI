@@ -1,6 +1,6 @@
 local DiscordLib =  loadstring(game:HttpGet"https://raw.githubusercontent.com/WyHuv/ObfuscatedByMoonSec_2/main/OperaDiscord")()
 
-local win = DiscordLib:Window("Mag Developments")
+local win = DiscordLib:Window("Verexus")
 
 local serv = win:Server("Main", "http://www.roblox.com/asset/?id=5003210530")
 
