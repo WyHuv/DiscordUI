@@ -592,7 +592,7 @@ r:Button(
     end
 )
 
-local s = ftns:Channel("Mad City")
+local s = ftns:Channel("MadCity")
 
 s:Button(
     "Instant XP",
