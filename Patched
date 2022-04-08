@@ -555,6 +555,34 @@ q:Button(
     end
 )
 
+local r = ftns:Channel("Strongest Punch Simulator")
 
+r:Button(
+    "Shit Boy Hub"
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/My-Scripts/main/Shit-Boy-Hub"))()
+    end
+)
+
+r:Button(
+    "M.G Hub - Strongest Punch Simulator"
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/My-Scripts/main/M.G%20Hub"))()
+    end
+)
+
+r:Button(
+    "GayCrap Hub"
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/STRONGEST_PUNCH_SIMULATOR.lua", true))()
+    end
+)
+
+r:Button(
+    "Verexus"
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/wjjj8WfA", true))()
+     end
+)
 
 --abcdefghijklmnopqrstuvwyz
