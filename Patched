@@ -585,7 +585,7 @@ r:Button(
     end
 )
 
-local s ftns:Channel("Mad City")
+local s = ftns:Channel("Mad City")
 
 s:Button(
     "Instant XP",
@@ -599,7 +599,8 @@ s:Button(
     end
     game:GetService("ReplicatedStorage").Event:FireServer("Eject", game:GetService("Players").LocalPlayer)
     end)
-    end
+  
+  end
 )
 
 s:Label("__________________________________________________")
@@ -608,12 +609,14 @@ s:Button(
     "System Exodus - INSANE Autofarm",
     function()
      loadstring(game:HttpGet('https://www.system-exodus.com/scripts/madcity/MadLadsAR.lua'))()
+  end
 )
 
 s:Button(
     "Coming Soon",
     function()
      loadstring(game:HttpGet(""))()
+   end
 )
 
 
