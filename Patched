@@ -611,7 +611,7 @@ s:Button(
 )
 
 s:Button(
-    "Instant XP",
+    "Coming Soon",
     function()
      loadstring(game:HttpGet(""))()
 )
