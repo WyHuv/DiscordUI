@@ -626,7 +626,7 @@ s:Button(
    end
 )
 
-local s = ftns:Channel("Phantom Forces")
+local t = ftns:Channel("Phantom Forces")
 
 
 
