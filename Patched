@@ -2,11 +2,42 @@ local DiscordLib =  loadstring(game:HttpGet"https://raw.githubusercontent.com/Wy
 
 local win = DiscordLib:Window("Verexus")
 
-local serv = win:Server("Main", "http://www.roblox.com/asset/?id=5003210530")
+local serv = win:Server("Key System", "http://www.roblox.com/asset/?id=5003210530")
+
+local key = serv:Channel("Key System") 
+
+
+
+key:Textbox(
+    "Key System", 
+    "Put Key Here! - after click enter",
+    true,
+    function(t)
+        _G.Key = "Boomer"
+local keys = {
+    "Boomer",
+    "VerexusKey",
+    "TestingKey"
+}
+
+local counter = 1
+local keyCheck
+for i,v in pairs(keys) do
+    if counter == #keys then
+    --not whitelisted!
+    keys = ""
+    game.Players.LocalPlayer:Kick("Not a valid key!")
+    else
+        if v == _G.Key then
+            --Whitelisted!
+          
+		  local serv = win:Server("Main", "http://www.roblox.com/asset/?id=5003210530")
 
 local btns = serv:Channel("My Exploits")
 
 local d = serv:Channel("Credits")
+
+btns:Label("__________________________________________________")
 
 btns:Button(
     "My Shortcut UI",
@@ -114,16 +145,15 @@ d:Button(
     end
 )
 
---Scripts Part
-local ftns = win:Server("Scripts", "http://www.roblox.com/asset/?id=6031075938")
-
-local a = ftns:Channel("Help!")
+		    --Scripts Part
+		    local ftns = win:Server("Scripts", "http://www.roblox.com/asset/?id=6031075938")
+			local a = ftns:Channel("Help!")
 
 a:Label("NEED HELP? Join our Discord")
 
 
 a:Button(
-    "https://discord.gg/gbCKX4PzRk",
+    "https://discord.gg/sDQ8bM3kJWa",
     function()     
         DiscordLib:Notification("Notification", "Copy Into your browser", "Okay!")
     end
@@ -132,7 +162,7 @@ a:Button(
 a:Button(
     "Copy Discord Link",
     function()     
-        setclipboard("https://discord.gg/gbCKX4PzRk")
+        setclipboard("https://discord.gg/sDQ8bM3kJW")
     end
 )
 
@@ -678,10 +708,51 @@ u:Button(
 )
 
 u:Button(
-    "Copy Art Script",
+    "Coming Soon...",
     function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/L4uSE104"))()
+        loadstring(game:HttpGet(""))()
    end
 )
 
+		    keyCheck = _G.Key
+            keys = ""
+        else
+            counter = counter +1
+        end
+    end
+end
+
+while true do
+    if _G.Key == keyCheck then
+        --Not spoofed
+    else
+        game.Players.LocalPlayer:Kick("Do not try and spoof your key!")
+    end
+    wait()
+end
+    end
+)
+
+
+
 --abcdefghijklmnopqrstuvwyz
+
+key:Label("__________________________________________________")
+
+key:Label("NEED KEY? Join our Discord")
+
+key:Button(
+    "https://discord.gg/sDQ8bM3kJW",
+    function()     
+        DiscordLib:Notification("Notification", "Copy Into your browser", "Okay!")
+    end
+)
+
+key:Button(
+    "Copy Discord Link",
+    function()     
+        setclipboard("https://discord.gg/sDQ8bM3kJW")
+    end
+)
+
+--Discord = https://discord.gg/sDQ8bM3kJW
