@@ -666,5 +666,22 @@ t:Button(
         loadstring(game:HttpGet('https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main'))();
    end
 )
-   
+
+
+local u = ftns:Channel("Starving Artist")
+
+u:Button(
+    "Copy Art Script",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/L4uSE104"))()
+   end
+)
+
+u:Button(
+    "Copy Art Script",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/L4uSE104"))()
+   end
+)
+
 --abcdefghijklmnopqrstuvwyz
