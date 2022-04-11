@@ -13,9 +13,9 @@ key:Textbox(
     "Put Key Here! - after click enter",
     true,
     function(t)
-        _G.Key = "Boomer"
+        _G.Key = "Monday"
 local keys = {
-    "Boomer",
+    "Monday",
     "VerexusKey",
     "TestingKey"
 }
