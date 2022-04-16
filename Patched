@@ -116,9 +116,9 @@ d:Button(
     end
 )
 
-		    --Scripts Part
-		    local ftns = win:Server("Scripts", "http://www.roblox.com/asset/?id=6031075938")
-			local a = ftns:Channel("Help!")
+--Scripts Part
+ local ftns = win:Server("Scripts", "http://www.roblox.com/asset/?id=6031075938")
+local a = ftns:Channel("Help!")
 
 a:Label("NEED HELP? Join our Discord")
 
@@ -141,7 +141,7 @@ a:Label("__________________________________________________")
 
 a:Label("CLICK THE BUTTONS EXECUTE THE SCRIPTS")
 
-local b = ftns:Channel("Football Fusion")
+if game.PlaceId ~= (placeid here) then local b = ftns:Channel("Football Fusion") 
 
 b:Button(
     "Aki Hub",
@@ -679,6 +679,33 @@ u:Button(
 )
 
 u:Button(
+    "Coming Soon...",
+    function()
+        loadstring(game:HttpGet(""))()
+   end
+)
+
+local v = ftns:Channel("Speedman Simulator") 
+
+v:Button(
+    "Midnight Hub",
+    function()
+       Theme = "Midnight"
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Simulator/Script/gamecopystrongman"))()
+
+   end
+)
+
+
+v:Button(
+    "Coming Soon...",
+    function()
+        loadstring(game:HttpGet(""))()
+   end
+)
+
+
+v:Button(
     "Coming Soon...",
     function()
         loadstring(game:HttpGet(""))()
