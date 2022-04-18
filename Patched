@@ -712,8 +712,23 @@ v:Button(
    end
 )
 
+local w = ftns:Channel("Football Universe") 
 
---abcdefghijklmnopqrstuvwyz
+w:Button(
+    "Reach ( Mags )",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Scripts/main/FBU-MAGS"))()
+   end
+)
+
+w:Button(
+    "Anti Tackle",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Scripts/main/FBU-ANTITACKLE"))()
+   end
+)
+
+--abcdefghijklmnopqrstuvwxyz
 
 
 --Discord = https://discord.gg/sDQ8bM3kJW
